@@ -248,16 +248,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: grey;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   #hero {
     background: url("../img/oka.jpeg") top center no-repeat;
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
-    height: 100%;
+    height: 200px;
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
   .img-profile {
 	  max-height: 330px !important;
 	  width: 250px !important;
